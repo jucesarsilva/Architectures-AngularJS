@@ -20,7 +20,7 @@
     HomeController.$inject = ['$scope'];
     
     function HomeController($scope){
-        $scope.teste = "Funfou!!!";
+        $scope.teste = "test of bind";
     };
     
 })(angular, modules);
