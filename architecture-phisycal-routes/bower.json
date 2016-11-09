@@ -1,0 +1,18 @@
+{
+    "name": "architectures-angularjs",
+    "description": "Several architectures using AngularJS, SPA applications, No virtual routes etc...",
+    "version": "1.0.0",
+    "homepage": "https://github.com/jucesarsilva/Architectures-AngularJS",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "angular": "~1.5.0",
+        "angular-loader": "~1.5.0",
+        "angular-mocks": "~1.5.0",
+        "bootstrap": "~3.3.7",
+        "html5-boilerplate": "^5.3.0",
+        "jquery": "~3.1.1",
+        "moment": "~2.15.1",
+        "requirejs": "latest"
+    }
+}
