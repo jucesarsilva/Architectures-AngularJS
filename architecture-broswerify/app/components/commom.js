@@ -5,5 +5,5 @@ require('../bower_components/angular-route/angular-route.min.js');
 
 var app = require('./app.js').call();
 
-require('./controllers/home/home.js').call(null, app);
-require('./controllers/about/about.js').call(null, app);
+require('./controllers/home.js').call(null, app);
+require('./controllers/about.js').call(null, app);

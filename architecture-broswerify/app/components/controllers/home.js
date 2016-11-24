@@ -1,6 +1,6 @@
 module.exports = function __ModuleHomeController(app){
     
-    var minimize = require('../../filters/minimize.js').call(null, app);
+    var minimize = require('../filters/minimize.js').call(null, app);
     
     app.root.controller('HomeController', HomeController);
     

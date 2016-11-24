@@ -31,11 +31,11 @@ module.exports = function __ModuleApp(){
         $locationProvider.hashPrefix('!');
         $routeProvider
         .when('/home', {
-            templateUrl: 'components/controllers/home/home.html',
+            templateUrl: 'views/home.html',
             controller: 'HomeController'
         })
         .when('/about', {
-            templateUrl: 'components/controllers/about/about.html',
+            templateUrl: 'views/about.html',
             controller: 'AboutController'
         })
         .otherwise({redirectTo: '/home'});
