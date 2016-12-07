@@ -14,7 +14,8 @@
             directives: 'components/directives/directives',
             filters: 'components/filters/filters',
             services: 'components/services/services',
-            factories: 'components/factories/factories'
+            factories: 'components/factories/factories',
+            blocks_exception: 'components/blocks.exception',
         },
         shim: {
             angular: { exports: 'angular'},
@@ -25,7 +26,7 @@
     });
     
     require(['jquery', 'angular', 'bootstrap', 'modernizr', 'angularloader', 
-             'moment', 'modules', 'directives', 'filters', 'services', 'factories', 'components/controllers/home' ], function ( ) {
+             'moment', 'modules', 'directives', 'filters', 'services', 'factories', 'blocks_exception', 'components/controllers/home' ], function ( ) {
     });
     
 })();
